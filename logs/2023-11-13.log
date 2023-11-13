@@ -1,0 +1,6 @@
+::ffff:127.0.0.1 - - [13/Nov/2023:02:56:25 +0000] "GET / HTTP/1.1" 302 58 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+::ffff:127.0.0.1 - - [13/Nov/2023:02:56:25 +0000] "GET /pizzas? HTTP/1.1" 200 2377 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+::ffff:127.0.0.1 - - [13/Nov/2023:02:56:26 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://127.0.0.1:8000/pizzas" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+::ffff:127.0.0.1 - - [13/Nov/2023:02:57:16 +0000] "GET /pizzas? HTTP/1.1" 200 2368 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+::ffff:127.0.0.1 - - [13/Nov/2023:02:57:18 +0000] "GET /users/create HTTP/1.1" 200 3387 "http://127.0.0.1:8000/pizzas" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+::ffff:127.0.0.1 - - [13/Nov/2023:02:57:19 +0000] "GET /auth/login HTTP/1.1" 200 3577 "http://127.0.0.1:8000/users/create" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
